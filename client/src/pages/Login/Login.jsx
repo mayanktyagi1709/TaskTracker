@@ -1,31 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar/Navbar"; // Importing the Navbar component
+import Navbar from "../../components/Navbar/Navbar";
 import "./Login.css";
 
 const Login = () => {
   return (
     <>
-      <Navbar /> {/* Including the Navbar component */}
+      <Navbar />
       <main className="login-page">
         <section className="login-container">
           <header>
             <h2>Login</h2>
           </header>
           <form className="login-form">
-            <label htmlFor="email" className="sr-only">
-              Email
-            </label>
             <input
               type="email"
               id="email"
               placeholder="Email"
               className="input-field"
             />
-
-            <label htmlFor="password" className="sr-only">
-              Password
-            </label>
             <input
               type="password"
               id="password"

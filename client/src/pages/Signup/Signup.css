@@ -1,0 +1,88 @@
+/* Overall page layout */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 4rem); /* Adjusting for the height of the Navbar */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Container for the signup form */
+.signup-container {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 20rem;
+}
+
+.signup-container h2 {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  color: #287eff;
+}
+
+/* Form and input field styling */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 0.625rem;
+  font-size: 1rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Signup button */
+.signup-btn {
+  background-color: #287eff;
+  color: white;
+  padding: 0.625rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.signup-btn:hover {
+  background-color: #1864c5;
+}
+
+/* Login link */
+.login-link {
+  color: #287eff;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Google signup button */
+.google-signup-btn {
+  background-color: #287eff;
+  color: #ffffff;
+  padding: 0.625rem;
+  font-size: 1rem;
+  border: 0.125rem solid #287eff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.google-signup-btn:hover {
+  background-color: #f1f1f1;
+}
