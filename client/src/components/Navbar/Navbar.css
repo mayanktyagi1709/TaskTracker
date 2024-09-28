@@ -1,0 +1,38 @@
+/* General Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #287eff; /* Blue background */
+  padding: 0.625rem 1.25rem; /* 10px -> 0.625rem, 20px -> 1.25rem */
+}
+
+/* Left section - App Icon */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.app-icon {
+  width: 1.875rem; /* 30px -> 1.875rem */
+  height: 1.875rem; /* 30px -> 1.875rem */
+}
+
+/* Right section - Login/Signup Buttons */
+.navbar-right {
+  display: flex;
+  gap: 0.625rem; /* 10px -> 0.625rem */
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem; /* 8px -> 0.5rem, 16px -> 1rem */
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover, .nav-button:focus {
+  background-color: white;
+  border-radius: 0.5rem;
+  color: #287eff; /* Text color change on hover */
+}

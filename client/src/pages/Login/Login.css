@@ -1,0 +1,90 @@
+/* General layout for the page */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Adjusting for the height of the Navbar */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Styling for the navbar - assuming the existing navbar CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #287eff; /* Blue background */
+  padding: 10px 20px;
+  height: 60px; /* Set a specific height */
+}
+
+/* Container for the login form */
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #287eff;
+}
+
+/* Form and input field styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Login button */
+.login-btn {
+  background-color: #287eff;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-btn:hover {
+  background-color: #1864c5;
+}
+
+/* Signup link */
+.signup-link {
+  color: #287eff;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Google login button */
+.google-login-btn {
+  background-color: #ffffff;
+  color: #757575;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #287eff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.google-login-btn:hover {
+  background-color: #f1f1f1;
+}
